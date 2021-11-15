@@ -1,4 +1,35 @@
-/* div {
-  background-color: rgba(0, 0, 0, 0.74);
+.container {
+  padding: 25px 20px 20px 20px;
+  border: 3px;
+  border-style: solid;
+  background-color: #333542;
+  width: auto;
+  height: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  border-top: 1px;
+  border-color: red;
+  border-top-style: solid;
+  width: auto;
+  text-align: center;
+  background-color: #3e3f4e;
+  color: white;
+  padding: 10px;
+}
+#bar-chart {
+  display: flex;
+  height: 200px;
+  width: 530px;
+}
 
-} */
+#line-chart {
+  display: flex;
+  height: 200px;
+  width: 530px;
+}

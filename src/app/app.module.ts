@@ -5,18 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SideBarComponent,
-    DashboardComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, SideBarComponent, DashboardComponent],
+  imports: [BrowserModule, AppRoutingModule, ChartsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
